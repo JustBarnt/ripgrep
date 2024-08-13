@@ -2627,7 +2627,7 @@ of printing the file path as a prefix for each matched line.
 This is the default mode when printing to a tty.
 .sp
 When \fBstdout\fP is not a tty, then ripgrep will default to the standard
-grep-like format. Once can force this format in Unix-like environments by
+grep-like format. One can force this format in Unix-like environments by
 piping the output of ripgrep to \fBcat\fP. For example, \fBrg\fP \fIfoo\fP \fB|
 cat\fP.
 "
@@ -7261,7 +7261,7 @@ impl Flag for Vimgrep {
         Category::Output
     }
     fn doc_short(&self) -> &'static str {
-        r"Print results im a vim compatible format."
+        r"Print results in a vim compatible format."
     }
     fn doc_long(&self) -> &'static str {
         r"

@@ -303,7 +303,9 @@ pub(crate) const DEFAULT_TYPES: &[(&[&str], &[&str])] = &[
     (&["vimscript"], &[
         "*.vim", ".vimrc", ".gvimrc", "vimrc", "gvimrc", "_vimrc", "_gvimrc",
     ]),
+    (&["vue"], &["*.vue"]),
     (&["webidl"], &["*.idl", "*.webidl", "*.widl"]),
+    (&["wgsl"], &["*.wgsl"]),
     (&["wiki"], &["*.mediawiki", "*.wiki"]),
     (&["xml"], &[
         "*.xml", "*.xml.dist", "*.dtd", "*.xsl", "*.xslt", "*.xsd", "*.xjb",
